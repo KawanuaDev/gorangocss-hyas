@@ -2,7 +2,8 @@
 title = "🦈GorangoCSS"
 description = "No JS required!"
 images = ["cover.png"]
-howToUseCdnLink = "<link rel=\"stylesheet\" href=\"https://unpkg.com/gorangocss@latest/dist/gorango.min.css\" crossorigin=\"anonymous\">"
+howToUseCdnLinkU = "<link rel=\"stylesheet\" href=\"https://unpkg.com/gorangocss@latest/dist/gorango.min.css\" crossorigin=\"anonymous\">"
+howToUseCdnLinkJ = "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/gorangocss@latest/dist/gorango.min.css\" crossorigin=\"anonymous\">"
 docsUrl = "https://docs.gorangocss.kawanua.id"
 
 # mainSections

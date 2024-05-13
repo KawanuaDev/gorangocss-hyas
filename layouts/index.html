@@ -11,9 +11,9 @@
         Get Started
       </a>  */}}
       <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="{{ site.Params.docsUrl }}" role="button">
-        Get Started
+        Documentation
       </a>
-      <a class="btn btn-primary btn-light rounded-pill btn-lg ms-2 my-3" href="https://github.com/KawanuaDev/gorangocss/releases/latest" role="button">
+      <a class="btn btn-primary btn-light rounded-pill ms-2 my-3" href="https://github.com/KawanuaDev/gorangocss/releases/latest" role="button">
         {{ $url := getJSON "https://api.github.com/repos/KawanuaDev/gorangocss/releases/latest" }}
         Download {{ $url.name }}
       </a>
@@ -36,13 +36,19 @@
         <div class="col-lg-12">
           <h2 class="mt-2">How To Use</h2>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-6">
           <h2 class="h4">Via CDN</h2>
-          <p><code>{{ site.Params.howToUseCdnLink }}</code></p>
+          <p>Please add this snippet inside your <code>HEAD</code> tag. Choose which one is suited you the best. <strong>DO NOT</strong> use them altogether.</p>
+          <pre><code>{{ site.Params.howToUseCdnLinkU }}</code></pre>
+          <pre><code>{{ site.Params.howToUseCdnLinkJ }}</code></pre>
+          <p>Or, you can use another method by adding this snippet inside your stylesheet file.</p>
+          <pre><code>@import url('https://unpkg.com/gorangocss@latest/dist/gorango.min.css');</code></pre>
         </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Via <mark>npm</mark></h2>
-          <p><code>npm i gorangocss</code></p>
+        <div class="col-lg-6">
+          <h2 class="h4">Via Package Manager</h2>
+          <pre><code>npm install gorangocss</code></pre>
+          <pre><code>pnpm install gorangocss</code></pre>
+          <pre><code>yarn add gorangocss</code></pre>
         </div>
       </div>
     </div>
