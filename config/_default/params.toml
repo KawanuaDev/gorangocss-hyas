@@ -3,6 +3,7 @@ title = "🦈GorangoCSS"
 description = "No JS required!"
 images = ["cover.png"]
 howToUseCdnLink = "<link rel=\"stylesheet\" href=\"https://unpkg.com/gorangocss@latest/dist/gorango.min.css\" crossorigin=\"anonymous\">"
+docsUrl = "https://docs.gorangocss.kawanua.id"
 
 # mainSections
 mainSections = ["docs"]
@@ -56,7 +57,7 @@ mainSections = ["docs"]
   showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
-  docsVersioning = true # false (default) or true
+  docsVersioning = false # false (default) or true
   docsVersion = "1.x"
 
   # UX

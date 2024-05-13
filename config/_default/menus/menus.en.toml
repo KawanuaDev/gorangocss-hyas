@@ -29,9 +29,9 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
-  # url = "/docs/guides/example-guide/"
-  url = "/docs/1.x/guides/example-guide/"
+  name = "Demo"
+  url = "https://gorangocss.kawanua.id"
+  # url = "/docs/1.x/guides/example-guide/"
   weight = 10
 
 [[main]]
@@ -84,16 +84,21 @@
   weight = 20
 
 [[footer]]
+  name = "Documentation"
+  url = "https://docs.gorangocss.kawanua.id"
+  weight = 30
+
+[[footer]]
   name = "License"
   url = "/license/"
-  weight = 30
+  weight = 40
 
 [[footer]]
   name = "Our Backers"
   url = "/backers/"
-  weight = 40
-
-[[footer]]
-  name = "Source Code"
-  url = "https://github.com/KawanuaDev/gorangocss"
   weight = 50
+
+# [[footer]]
+#   name = "Source Code"
+#   url = "https://github.com/KawanuaDev/gorangocss"
+#   weight = 60
