@@ -5,7 +5,7 @@
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
-    footer = 'Brought to you by <a class="text-muted" href="https://kid.or.id/">KawanuaDev™</a>'
+    footer = 'Brought to you by <a class="text-muted" href="https://kid.or.id/">KawanuaDev™</a>.<br />Source code released under the <a class="text-muted" href="/license/">MIT License</a>. Site powered by <a class="text-muted" href="https://www.netlify.com/">Netlify</a>.'
     alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
 
 [de]

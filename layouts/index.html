@@ -10,7 +10,7 @@
       <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/example-guide/" role="button">
         Get Started
       </a>
-      <a class="btn btn-primary btn-light rounded-pill btn-lg my-3" href="https://github.com/KawanuaDev/gorangocss/releases/latest" role="button">
+      <a class="btn btn-primary btn-light rounded-pill btn-lg ms-2 my-3" href="https://github.com/KawanuaDev/gorangocss/releases/latest" role="button">
         {{ $url := getJSON "https://api.github.com/repos/KawanuaDev/gorangocss/releases/latest" }}
         Download {{ $url.name }}
       </a>
@@ -35,10 +35,10 @@
         </div>
         <div class="col-lg-5">
           <h2 class="h4">Via CDN</h2>
-          <p><code>link rel="stylesheet" href="https://unpkg.com/gorangocss@latest/dist/gorango.min.css" crossorigin="anonymous"></code></p>
+          <p><code>{{ site.Params.howToUseCdnLink }}</code></p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Via <code>npm</code></h2>
+          <h2 class="h4">Via <mark>npm</mark></h2>
           <p><code>npm i gorangocss</code></p>
         </div>
       </div>
